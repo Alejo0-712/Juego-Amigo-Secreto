@@ -24,7 +24,6 @@ function agregarAmigo() {
 
   input.value = '';
   input.focus();
-  cambiarColorBoton();
 }
 
 function actualizarLista() {
