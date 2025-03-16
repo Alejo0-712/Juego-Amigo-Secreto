@@ -34,21 +34,6 @@ function actualizarLista() {
   }
 }
 
-input.addEventListener('input', () => {
-  let nombre = input.value.trim();
-  if (nombre !== '') {
-    botonAgregar.style.backgroundColor = 'green';
-    botonAgregar.style.color = 'white';
-  } else {
-    cambiarColorBoton();
-  }
-});
-
-function cambiarColorBoton() {
-  botonAgregar.style.backgroundColor = '';
-  botonAgregar.style.color = '';
-}
-
 function sortearAmigo() {
   resultado.innerHTML = '';
 
